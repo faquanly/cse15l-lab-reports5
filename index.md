@@ -3,12 +3,12 @@
 
 1. Part 1 - Debugging Scenario
    Design a debugging scenario, and write a report as a conversation on Edstem:
-   [a] The origional post from a student with a screenshot showing a symtom and a description of a guess at the bug/some sense of what the failure-inducing input is.
+   - [a] The origional post from a student with a screenshot showing a symtom and a description of a guess at the bug/some sense of what the failure-inducing input is.
    ![screenshot of the symtom](lab5-1-1)
-   [b] A response from a TA asking a leading question or suggesting a command to try.
-   [c] Another screenshot/ terminal output showing what information the student got from trying that, and a clear description of what the bug is.
+   - [b] A response from a TA asking a leading question or suggesting a command to try.
+   - [c] Another screenshot/ terminal output showing what information the student got from trying that, and a clear description of what the bug is.
    ![screenshot from trying to fix the bug](lab5-1-2)
-   [d] At the end, all the information needed about the setup:
+   - [d] At the end, all the information needed about the setup:
    - The file and directory structure needed.
    - The contents of each file before fixing the bug.
    - A description of what to edit to fix the bug
