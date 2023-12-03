@@ -4,12 +4,12 @@
 1. Part 1 - Debugging Scenario
    Design a debugging scenario, and write a report as a conversation on Edstem:
    - [a] The origional post from a student with a screenshot showing a symtom and a description of a guess at the bug/some sense of what the failure-inducing input is: "Hi, I am running grade.sh in skill_demo3_data, but I don't see anything written in run-result.txt file. Could you check where is the bug in my `grade.sh` file?"
-   - ![ Here is the grade.sh when I run the code](lab5-1-1)
-   - ![ Here is `run-result.txt file` after running the code without anything written in it](lab5-1-2)
-   - ![ Here is `compile-errors.txt file` after running the code to compared with ](lab5-1-3)
+   - ![ Here is the grade.sh when I run the code](lab5-1-1.png)
+   - ![ Here is `run-result.txt file` after running the code without anything written in it](lab5-1-2.png)
+   - ![ Here is `compile-errors.txt file` after running the code to compared with ](lab5-1-3.png)
    - [b] A response from a TA asking a leading question or suggesting a command to try.
    - [c] Another screenshot/ terminal output showing what information the student got from trying that, and a clear description of what the bug is.
-   ![screenshot from trying to fix the bug](lab5-1-2)
+   ![screenshot from trying to fix the bug](lab5-1-2.png)
    - [d] At the end, all the information needed about the setup:
    - The file and directory structure needed.
    - The contents of each file before fixing the bug.
