@@ -66,7 +66,7 @@
    ```
       `run-results.txt`
      
-   ```(empty file after running the command line)
+   ```   (empty file)
    ```
      
    - The full command line (or lines) I ran to trigger the bug: `grep "test results" $all_results > run-results.txt`.
