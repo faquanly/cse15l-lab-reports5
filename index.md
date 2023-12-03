@@ -18,7 +18,9 @@
       ![screenshot from trying to fix the bug](lab5-1-5.png)
      Here is `all_result.txt` file with all test results information after fixing the bug and re-run the code.
    - [d] At the end, all the information needed about the setup:
-      - The file and directory structure needed: https://github.com/ucsd-cse15l-f23/skill_demo3_data
+      - The file and directory structure needed:
+        -  Practice skill demo 3 instruction: https://us.prairielearn.com/pl/course_instance/142513/instance_question/330525699/
+        -  The file and directory link: https://github.com/ucsd-cse15l-f23/skill_demo3_data
       - The contents of each file before fixing the bug.
      `grade.sh`
 
