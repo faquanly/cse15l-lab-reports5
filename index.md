@@ -21,6 +21,7 @@
       - The file and directory structure needed: https://github.com/ucsd-cse15l-f23/skill_demo3_data
       - The contents of each file before fixing the bug.
      `grade.sh`
+
      ```
         original_dir=`pwd`
         for submission_dir in submissions/*
@@ -30,7 +31,7 @@
 
         javac Sorter.java
 
-        # Replace this with a condition that does the appropriate check
+        #Replace this with a condition that does the appropriate check
         if [[ $? -ne 0 ]] 
         then
           echo "$submission_dir: Compile error" > result.txt    
@@ -62,11 +63,11 @@
 
       # Here, add code to put all of the results for files that successfully ran into run-results.txt
       grep "test results" $all_results > run-results.txt
-      ```
+   ```
       `run-results.txt`
-     ```
-     (empty file after running the command line)
-     ```
+     
+   ```(empty file after running the command line)
+   ```
      
    - The full command line (or lines) I ran to trigger the bug: `grep "test results" $all_results > run-results.txt`.
    - A description of what to edit to fix the bug: The bug was a typo in command line `grep "test results" $all_results > run-results.txt`, instead of `"test results"`, it should be `"Test results"` (change the `test` to `Test` with `T` is an uppercase). Because `"Test result"` is the phrase that we need to look for in `result.txt`. So the correct command is `grep "Test results" $all_results > run-results.txt`.
