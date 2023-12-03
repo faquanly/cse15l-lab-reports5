@@ -12,14 +12,14 @@
         - The `compile-errors.txt` file shows that the code works.
         - Another response from a TA: "So, the code words with command `grep "Compile error" $all_results > compile-errors.txt` but does not work with `grep "test results" $all_results > run-results.txt`. What do you think? Which one should you check on this command? What `all_result` variable is about?"
    - [c] Another screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.
-        - After the student got the response with some leading questions from the TA, he looked back on the `grep "test results" $all_results > run-results.txt` and checked the `result.txt` content. He realized that there was a typo in the phrase `test results` (with "T" in `Test` should be uppercase). He fixed the bug which is the command line now become `grep "Test results" $all_results > run-results.txt`.
+        - After the student got the response with some leading questions from the TA, he looked back on the `grep "test results" $all_results > run-results.txt` and checked the `result.txt` content. He realized that there was a typo in the phrase `test results` (with the "T" in `Test` should be uppercase -> correct one: `Test results`). He fixed the bug which is the command line now become `grep "Test results" $all_results > run-results.txt`.
       ![screenshot from trying to fix the bug](lab5-1-4.png)
      Here is the screenshot running the code after fixing the bug which is the command line `grep "Test results" $all_results > run-results.txt`.
       ![screenshot from trying to fix the bug](lab5-1-5.png)
      Here is `all_result.txt` file with all test results information after fixing the bug and re-run the code.
    - [d] At the end, all the information needed about the setup:
-   - The file and directory structure needed: https://github.com/ucsd-cse15l-f23/skill_demo3_data
-   - The contents of each file before fixing the bug.
+      - The file and directory structure needed: https://github.com/ucsd-cse15l-f23/skill_demo3_data
+      - The contents of each file before fixing the bug.
      `grade.sh`
      ```
         original_dir=`pwd`
@@ -69,7 +69,7 @@
      ```
      
    - The full command line (or lines) I ran to trigger the bug: `grep "test results" $all_results > run-results.txt`.
-   - A description of what to edit to fix the bug: The bug was a typo in command line `grep "test results" $all_results > run-results.txt`, instead of `"test results"`, it should be `"Test results"` because it is the phrase that we need to look for in `result.txt`. So the correct command is `grep "Test results" $all_results > run-results.txt`.
+   - A description of what to edit to fix the bug: The bug was a typo in command line `grep "test results" $all_results > run-results.txt`, instead of `"test results"`, it should be `"Test results"` (change the `test` to `Test` with `T` is an uppercase). Because `"Test result"` is the phrase that we need to look for in `result.txt`. So the correct command is `grep "Test results" $all_results > run-results.txt`.
 
 1. Part 2 - Reflection
    - I've learned many useful and cool things from the lab tasks and lab reports from the second half of this quater. They are `bash script`, `vim editor`, `git`, `gitHub`, `jdb`, etc., which I was very interesting to learn. Eventhought I used a little bit `vim editor`, `git` commands, `gitHub` in my previous classes, but I was struggling to understand and use them confidently. Thank to this class, I understand more and know how to develop my knowledge in using these tools. It is very cool to know how to use `jdb` in debugging and `bash cript` in running java and other command lines which I did not know before. In addition, it is always a cool thing to know how to use gitHub to create my own `pages site`. I also thank to the tutors for helping me do lab tasks and find the way to debug. Overall, I found this class is extremely useful and necessary for programmer.
