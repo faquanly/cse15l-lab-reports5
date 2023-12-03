@@ -3,7 +3,7 @@
 
 1. Part 1 - Debugging Scenario
    Design a debugging scenario, and write a report as a conversation on Edstem:
-   - [a] The origional post from a student with a screenshot showing a symtom and a description of a guess at the bug/some sense of what the failure-inducing input is: "Hi, I am running grade.sh in `skill_demo3_data`, but I don't see anything written in `run-result.txt` file. Could you check my code `grade.sh` see where I did it wrong?
+   - [a] The origional post from a student with a screenshot showing a symtom and a description of a guess at the bug/some sense of what the failure-inducing input is: "Hi, I am running grade.sh in `skill_demo3_data`, but I don't see anything written in `run-result.txt` file. Could you check my code `grade.sh` see where I did it wrong?"
    - ![ Here is the grade.sh when I run the code](lab5-1-1.png)
    - ![ Here is `run-result.txt file` after running the code without anything written in it](lab5-1-3.png)
    
